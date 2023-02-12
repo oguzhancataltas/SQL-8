@@ -6,7 +6,8 @@
 	birthday DATE,
 	email VARCHAR(100)
 );
-2. * insert into employee (name, birthday, email) values ('Chauncey', null, 'cperrycost0@bbc.co.uk');
+2. 
+* insert into employee (name, birthday, email) values ('Chauncey', null, 'cperrycost0@bbc.co.uk');
 * insert into employee (name, birthday, email) values ('Ray', null, 'rcawthery1@samsung.com');
 * insert into employee (name, birthday, email) values ('Rey', '1986-10-22', 'rbalcombe2@oaic.gov.au');
 * insert into employee (name, birthday, email) values ('Abigail', '2001-06-25', 'amouland3@google.co.jp');
@@ -57,7 +58,8 @@
 * insert into employee (name, birthday, email) values ('Janeen', '2004-03-28', 'jfellows1c@artisteer.com');
 * insert into employee (name, birthday, email) values ('Reinaldos', '2009-07-28', 'rribchester1d@last.fm');
 
-3. * UPDATE employee
+3. 
+* UPDATE employee
 SET name = 'Tom'
 WHERE id = 2;
 * UPDATE employee
@@ -73,7 +75,8 @@ WHERE name = 'Rey';
 SET birthday = '1999-10-22'
 WHERE email = 'dlongeab@histats.com';
 
-4. * DELETE FROM employee
+4. 
+* DELETE FROM employee
 WHERE id = 13;
 * DELETE FROM employee
 WHERE name = 'Rey';
